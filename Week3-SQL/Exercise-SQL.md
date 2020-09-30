@@ -209,6 +209,7 @@ FROM
   `bigquery-public-data.new_york_citibike.citibike_trips`
 	```
 
+
 3. Write a query that, for every station_name, has the amount of trips that started there and the amount of trips that ended there. (Hint, use two temporary tables, one that counts the amount of starts, the other that counts the number of ends, and then join the two.) 
 	```
 WITH STARTS AS
